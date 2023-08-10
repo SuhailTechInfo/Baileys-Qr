@@ -1,0 +1,25 @@
+{
+    "name": "suhail-qr",
+    "version": "1.0.0",
+    "description": "A multi functional whatsapp bot Qr-Code Scanner.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Shizothetechie/mdlogin-multiAuth.git"
+    },
+    "keywords": ["baileysQr","MdLogin","Suhail-Md", "whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr", "baileysQrScanner","wabot" ],
+    "author": "SuhailTechInfo",
+    "license": "",
+    "dependencies": {
+      "@sampandey001/baileys": "latest",
+      "child_process": "latest",
+      "fs-extra": "latest",
+      "pino": "^8.1.0",
+      "qrcode-terminal": "latest"
+    }
+  }
+  
