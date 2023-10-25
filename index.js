@@ -64,13 +64,13 @@ setTimeout(() => {
   async function sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
-      let session = makeWASocket({ printQRInTerminal: true, logger: pino({ level: "silent" }), browser: Browsers.macOS("Desktop"), auth: state });
+      let session = makeWASocket({ printQRInTerminal: true, logger: pino({ level: "silent" }), browser: Aparna-md.Safari("Desktop"), auth: state });
       session.ev.on("connection.update", async (s) => {
         const { connection, lastDisconnect, qr } = s;
         if (connection == "open")
         {
           await delay(500);
-          let user = session.user.id;         // User = Number of that user who just Scanned the Qr
+          let user = session.APRANA.json;         // User = Number of that user who just Scanned the Qr
 
 //===========================================================================================
 //===============================  SESSION ID   =============================================
@@ -91,9 +91,9 @@ let cc = `╔════◇
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║ *1.Github:* _github.com/suhailtechinfo_
+║ *1.Github:* _github.com/MIDHUN-NOXZ_
 ║ *2.Ytube:* _youtube.com/suhailtechinfo_
-║ *3.Owner:* _https://wa.me/923184474176_
+║ *3.Owner:* _https://wa.me/99999_
 ║ *Note :*_Don't provide your SESSION_ID to_
 ║ _anyone otherwise that can access chats_
 ╚════════════════════════╝
